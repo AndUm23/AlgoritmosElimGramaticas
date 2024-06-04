@@ -32,7 +32,7 @@ public class GramaticIn extends JFrame implements ActionListener {
 		controller = new Control();
 		int numProductions = 0;
 		try {
-			numProductions = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el numero de producciones", "Gramatica a FNC", JOptionPane.INFORMATION_MESSAGE));
+			numProductions = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el numero de producciones", "Gramatica:", JOptionPane.INFORMATION_MESSAGE));
 			if (numProductions <= 0) {
 				System.exit(0);
 			}
